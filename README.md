@@ -1,13 +1,12 @@
 # Course Management API
-   This project is a simple REST API built using Django and MySQL. 
-   It provides basic CRUD (Create, Read, Update, Delete) operations for managing courses, allowing users to create, retrieve, update, and delete courses.
+This project is a simple REST API built using Django and MySQL. 
+It provides basic CRUD (Create, Read, Update, Delete) operations for managing courses, allowing users to create, retrieve, update, and delete courses.
 
-
-#Features
-            Add new courses.
-            Retrieve all courses or a specific course by ID.
-            Update a course’s details by ID.
-            Delete a course by ID
+## Features
+Add new courses.
+1. Retrieve all courses or a specific course by ID.
+2. Update a course’s details by ID.
+3. Delete a course by ID
 
 #Table of Contents
               Technologies Used
