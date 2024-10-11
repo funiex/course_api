@@ -59,5 +59,5 @@ DELETE /courses/{id}/
 -Description: Update an existing course by its ID.
 -Request Body: JSON object with the updated course details.
 
-##DELETE /courses/{id}/
+## DELETE /courses/{id}/
 -Description: Delete a specific course by its ID.
