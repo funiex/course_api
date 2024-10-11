@@ -32,8 +32,32 @@ DELETE /courses/{id}/
 
 ## Installation and Setup
 ## Prerequisites
- Before running this project, ensure you have the following installed on your system:
- Python (version 3.8 or later)
- MySQL
- Django
- MySQL client library (mysqlclient)
+- Before running this project, ensure you have the following installed on your system:
+- Python (version 3.8 or later)
+- MySQL
+- Django
+- MySQL client library (mysqlclient)
+
+# Steps to Setup
+1.Clone the Repository:
+    - Clone the repo with `https://github.com/funiex/course_api`
+
+# API Endpoints
+## GET /courses/
+-Description: Retrieve a list of all courses.
+-Response: JSON array containing the list of courses.
+
+# POST /courses/
+-Description: Create a new course.
+-Request Body: JSON object with course details (title, description, and duration).
+
+## GET /courses/{id}/
+-Description: Retrieve details of a specific course by its ID.
+-Response: JSON object with course details
+
+## PUT /courses/{id}/
+-Description: Update an existing course by its ID.
+-Request Body: JSON object with the updated course details.
+
+##DELETE /courses/{id}/
+-Description: Delete a specific course by its ID.
