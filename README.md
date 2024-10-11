@@ -47,7 +47,7 @@ DELETE /courses/{id}/
 -Description: Retrieve a list of all courses.
 -Response: JSON array containing the list of courses.
 
-# POST /courses/
+## POST /courses/
 -Description: Create a new course.
 -Request Body: JSON object with course details (title, description, and duration).
 
