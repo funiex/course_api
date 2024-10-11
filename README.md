@@ -1,4 +1,4 @@
-###Course Management API
+# Course Management API
    This project is a simple REST API built using Django and MySQL. 
    It provides basic CRUD (Create, Read, Update, Delete) operations for managing courses, allowing users to create, retrieve, update, and delete courses.
 
